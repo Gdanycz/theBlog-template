@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Testovací úloha - Daniel Cyrus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Daniel Cyrus">
+    <meta name="description" content="Na úloze stráveno: 3 hodiny">
+    <meta name="keywords" content="html5, css3, webdesign, modern, poski">
+    <link rel="stylesheet" href="./dist/bootstrap.css">
+    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="./dist/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-bar">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-bars fa-3x" id="showMenu"></i>
+                    </div>
+                    <div class="col-md-4">
+                        <img id="logo" src="./img/logo.svg">
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-magnifying-glass fa-3x"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <i class="fa-solid fa-xmark fa-2x" id="hideMenu"></i>
+            <ul>
+                <li><img src="./img/logo.svg"></li>
+                <li><a href="#">Položka 1</a></li>
+                <li><a href="#">Položka 2</a></li>
+                <li><a href="#">Položka 3</a></li>
+                <li><a href="#">Položka 4</a></li>
+                <li><a href="#">Položka 5</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="social-icons">
+            <ul>
+                <li><i class="fa-brands fa-facebook-f fa-lg"></i></li>
+                <li><i class="fa-brands fa-twitter fa-lg"></i></li>
+                <li><i class="fa-brands fa-instagram fa-lg"></i></li>
+                <li><i class="fa-solid fa-share-nodes fa-lg"></i></li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row upper-section">
+                    <div class="col-md-8 del-pm img">
+                        <a href="#">
+                            <span class="img-tag">TRAVEL</span>
+                            <img src="./img/article1.jpg" class="first-img">
+                            <h3>Etiam quis quam. Nemo enim ipsam voluptatem quia</h3>
+                            <p>May 25, 2048 / 9 min.</p>
+                        </a>
+                    </div>
+                    <div class="col-md-4 del-pm left-padding">
+                        <div class="info-banner">
+                            <img src="./img/space-station-moon-alt-duotone.svg">
+                            <p>Discover content<br>from different universe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row lower-section">
+                    <div class="col-md-4 del-pm">
+                        <div class="img-small">
+                            <a href="#">
+                                <span class="img-tag-small">TRAVEL</span>
+                                <img src="./img/article2.jpg" class="second-img">
+                                <h3>Etiam quis quam. Nemo enim ipsam voluptatem quia</h3>
+                                <p>May 25, 2048 / 9 min.</p>
+                            </a>
+                        </div>
+                        <div class="img-small">
+                            <a href="#">
+                                <span class="img-tag-small tag-tech">TRAVEL</span>
+                                <img src="./img/article3.jpg" class="third-img">
+                                <h3>Etiam quis quam. Nemo enim ipsam voluptatem quia</h3>
+                                <p>January 10, 2048 / 4 min.</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 del-pm left-padding img">
+                        <a href="#">
+                            <span class="img-tag">TRAVEL</span>
+                            <img src="./img/article4.jpg" class="fourth-img">
+                            <h3>Etiam quis quam. Nemo enim ipsam voluptatem quia</h3>
+                            <p>October 20, 2047 / 5 min.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bar">
+            <p>All rights reserved. ©2048</p>
+            <img src="./img/logo.svg">
+            <div class="clearfix"></div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector("#showMenu").addEventListener("click", function() {
+            document.querySelector("nav").style.display = "block";
+            document.querySelector("#showMenu").style.display = "none";
+        });
+
+        document.querySelector("#hideMenu").addEventListener("click", function() {
+            document.querySelector("nav").style.display = "none";
+            document.querySelector("#showMenu").style.display = "block";
+        });
+    </script>
+
+    <script src="https://kit.fontawesome.com/1baaf36512.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

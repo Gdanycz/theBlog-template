@@ -1,0 +1,65 @@
+@media only screen and (max-width: 480px) {
+    /* Menu Bar */
+    .header-bar {
+        height: auto;
+    }
+    
+    /* Upper Section imgs */
+    .upper-section, .lower-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .upper-section .left-padding {
+        padding: 0;
+        margin-top: 20px;
+    }
+    
+    /* Lower Section Imgs */
+    .lower-section .del-pm {
+        display: inline-block;
+        margin: 20px auto 0 auto;
+    }
+    
+    .lower-section .del-pm .img-small {
+        width: 49%;
+        float: left;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .fourth-img {
+        margin: 0 auto 20px auto;
+    }
+    
+    .second-img, .third-img {
+        padding: 0;
+    }
+    
+    /* Footer */
+    footer {
+        background: #222;
+        height: 0;
+        width: 1380px;
+    }
+    
+    /* Menu */
+    nav {
+        height: auto;
+        z-index: 100;
+    }
+    
+    /* Menu First Img Fix */
+    .first-img {
+        z-index: -1;
+    }
+    
+    /* Social Icons Positon Change */
+    .social-icons {
+        position: fixed;
+        top: 35%;
+        left: -0.2%;
+        text-align: center;
+        z-index: -1;
+    }
+}
